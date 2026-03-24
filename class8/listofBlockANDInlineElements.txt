@@ -1,0 +1,38 @@
+Block Elements
+
+Block elements hamesha new line se start hote hain aur poori width le lete hain.
+
+Element	Use
+<div>	Page ko sections ya containers me divide karne ke liye
+<p>	Paragraph likhne ke liye
+<h1> – <h6>	Headings likhne ke liye
+<ul>	Unordered list (bullet list) banane ke liye
+<ol>	Ordered list (number list) banane ke liye
+<li>	List ke items likhne ke liye
+<table>	Table banane ke liye
+<form>	User se input lene ke liye form banane ke liye
+<header>	Page ka top section (logo, title)
+<footer>	Page ka bottom section
+<section>	Page ke different sections banane ke liye
+<article>	Independent content (blog post, article)
+<nav>	Navigation links (menu) ke liye
+<aside>	Side content ya sidebar ke liye
+
+    Inline Elements
+
+Inline elements new line start nahi karte, balkay same line me show hote hain aur sirf jitni zaroorat ho utni width lete hain.
+
+Element	Use
+<span>	Text ke chhote part ko style karne ke liye
+<a>	Link banane ke liye
+<img>	Image show karne ke liye
+<b>	Text ko bold karne ke liye
+<strong>	Important text ko highlight karne ke liye
+<i>	Text ko italic karne ke liye
+<em>	Emphasized text ke liye
+<u>	Text ko underline karne ke liye
+<small>	Chhota text dikhane ke liye
+<sub>	Subscript text (H₂O)
+<sup>	Superscript text (x²)
+<label>	Form field ka label dikhane ke liye
+<code>	Programming code show karne ke liye

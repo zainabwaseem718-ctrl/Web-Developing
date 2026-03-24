@@ -1,0 +1,41 @@
+<!--Inline CSS directly HTML tag ke andar style attribute ke through likhi jati hai.
+
+Example
+<p style="color: red; font-size: 20px;">
+This is a paragraph.
+</p>
+
+
+Internal CSS
+
+Internal CSS HTML file ke <style> tag ke andar likhi jati hai, jo usually <head> section me hota hai.
+
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: blue;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+</body>
+</html>
+
+
+
+External CSS ek separate CSS file me likhi jati hai aur HTML me <link> tag se connect ki jati hai.
+
+Step 1 – CSS File (style.css)
+p {
+  color: green;
+  font-size: 20px;
+}-->

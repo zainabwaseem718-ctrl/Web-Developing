@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+<body>
+    <style>
+        /*Element SElector*/
+        h1 {
+            text-align: center;
+        }
+
+        /*Class SElector*/
+        .red {
+            color: blueviolet;
+            text-align: center;
+        }
+
+        /*ID SElector*/
+        #hlo {
+            color: blue;
+            text-align: center;
+        }
+
+        h2 {
+            font-style: bold;
+            color: yellow;
+            background-color: rgb(10, 10, 74);
+            padding: 20px;
+            text-align: center;
+        }
+
+        /*Direct Child SElector*/
+        div>p {
+            text-align: right;
+            color: brown;
+        }
+
+        /*Descendent Selector*/
+        div p {/*ab jis b div me p ho ga uss pr apply ho ga ..chaya p kahi pr b ho ander k ander b o chahay*/
+            text-align: right;
+            color: brown;
+        }
+
+        /**universal Selector
+        * {
+        margin :0;
+        padding :0;
+        }*/
+
+    /* Pseodu Selector*/
+    a:visited{
+
+        color: brown;
+    }
+    a:link{
+        color: black;
+    }
+    a:active{/*jb hum click karen gay to color brown*/
+        background-color: brown;
+    }
+    a:hover{/*jb hum cursor rkhayn gay to color brown*/
+        background-color: aquamarine;
+    }
+    </style>
+
+    <!--Specific jagah break chahiye → <br>
+
+Exact formatting chahiye → <pre>-->
+    <h1>Courses</h1>
+    <div class="red">
+        <pre> One of Can Code Communities’ objectives is to help create access to training
+        for tech sector and tech adjacent careers. 98% of our students are provided tuition
+        assistance which results in most of our students enrolling in their program for FREE.
+        Learn more about our scholarships and assistance opportunities!
+        </pre>
+    </div>
+    <h2>
+        Open for Enrollment
+    </h2>
+    <div id="hlo">
+        <article>
+            <pre>  Front End Web Development
+ Mar 2 - May 20, 2026
+ Virtual
+This 12-week course in Front-End Web Development establishes solid foundations
+in key tools of front-end developers: HTML, CSS, Bootstrap, JavaScript, and
+ collaborative workplace/version control tools Git and GitHub.
+</pre>
+            <p>
+            <pre>AlbanyCanCode was established in the summer of 2016 to serve two key stakeholder groups:
+    local employers of software and IT professionals, and local folks who have the aptitude 
+    to work in software but lack local options for training.
+    </pre>
+            </p>
+        </article>
+    </div>
+    <a href="http://www.google.com">Go to Google</a>
+</body>
+
+</html>
